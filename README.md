@@ -276,7 +276,7 @@ crontab -e
 ![SSH Connection](screenshots/02-ssh-connection-success.png)
 
 ### Environment Setup
-![Docker Installed](screenshots/03-docker-installed.png)
+![Docker Installed](screenshots/03-docker-installed-groups.png)
 
 ### Service Running (Baseline)
 ![Nginx Browser](screenshots/04-nginx-running-browser.png)
