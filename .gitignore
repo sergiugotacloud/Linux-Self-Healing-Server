@@ -1,0 +1,20 @@
+# SSH Keys (CRITICAL)
+*.pem
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Linux temp
+*.swp
+*~
+
+# Terraform (future-proof)
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Environment files
+.env
