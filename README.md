@@ -179,7 +179,7 @@ linux-self-healing-server/
 ├── screenshots/
 │   ├── 01-ec2-instance-running.png
 │   ├── 02-ssh-connection-success.png
-│   ├── 03-docker-installed.png
+│   ├── 03-docker-installed-groups.png
 │   ├── 04-nginx-running-browser.png
 │   ├── 05-container-stopped.png
 │   ├── 06-site-down-browser.png
@@ -187,10 +187,9 @@ linux-self-healing-server/
 │   ├── 08-watchdog-recovery.png
 │   ├── 09-watchdog-log.png
 │   ├── 10-port-conflict-error.png
-│   ├── 11-port-debug-ss-command.png
-│   ├── 12-process-identification-ps.png
-│   ├── 13-port-free-confirmation.png
-│   └── 14-final-recovery-success.png
+│   ├── 11-port-debug-command.png
+│   ├── 12-final-recovery-success.png
+│   └── 13-docker-ps-stable.png
 │
 ├── .gitignore
 └── README.md
@@ -294,12 +293,13 @@ crontab -e
 
 ### Port Conflict (Advanced Failure)
 ![Port Conflict Error](screenshots/10-port-conflict-error.png)
-![Port Debug — ss](screenshots/11-port-debug-ss-command.png)
-![Process Identification — ps](screenshots/12-process-identification-ps.png)
-![Port Free Confirmation](screenshots/13-port-free-confirmation.png)
+![Port Debug Command](screenshots/11-port-debug-command.png)
 
 ### Full Recovery
-![Final Success](screenshots/14-final-recovery-success.png)
+![Final Recovery](screenshots/12-final-recovery-success.png)
+
+### System Stability
+![Docker PS Stable](screenshots/13-docker-ps-stable.png)
 
 ---
 
