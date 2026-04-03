@@ -20,6 +20,7 @@ then
   echo "Old container removed (if existed)" >> $LOGFILE
 
   # Step 3 — Attempt to start container
+  echo "Attempting to start nginx-container..." >> $LOGFILE
   docker run -d -p 80:80 --name nginx-container nginx >> $LOGFILE 2>&1
   EXIT_CODE=$?
 
