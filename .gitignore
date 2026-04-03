@@ -1,20 +1,29 @@
-# SSH Keys (CRITICAL)
+# ==========================================
+# PROJECT-SPECIFIC
+# ==========================================
+
+# SSH keys (EC2 access)
 *.pem
 
-# Logs
+# Watchdog logs
 *.log
+
+# ==========================================
+# OS / EDITOR
+# ==========================================
 
 # macOS
 .DS_Store
 
-# Linux temp
+# Linux temp files
 *.swp
 *~
 
-# Terraform (future-proof)
+# ==========================================
+# FUTURE INFRA (Terraform / env)
+# ==========================================
+
 .terraform/
 *.tfstate
 *.tfstate.backup
-
-# Environment files
 .env
